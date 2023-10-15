@@ -3,10 +3,12 @@
 import AddToCard from "./AddToCard"
 
 
+
+
 const ProductCard = () => {
   return (
-    <div>
-        <AddToCard/>
+    <div className='ProductCard'>
+      <AddToCard />
     </div>
   )
 }

@@ -2,9 +2,9 @@ import React from 'react'
 
 const AddToCard = () => {
   return (
-    <button onClick={() => console.log('clicked')}>
-            Add to Cart
-        </button>
+    <button className='btn btn-primary' onClick={() => console.log('clicked')}>
+      Add to Cart
+    </button>
   )
 }
 
